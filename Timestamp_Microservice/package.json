@@ -1,0 +1,32 @@
+{
+  "name": "fcc-api-timestamp-microservice",
+  "version": "0.0.1",
+  "description": "An FCC Backend Challenge OF TIMESTAMP MICROSERVICE",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.0",
+    "dotenv": "^16.3.1",
+    "express": "^4.12.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/freeCodeCamp/boilerplate-project-timestamp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/freeCodeCamp/freeCodeCamp/issues"
+  },
+  "homepage": "https://github.com/freeCodeCamp/boilerplate-project-timestamp#readme",
+  "author": "freeCodeCamp <team@freecodecamp.org> + Subash Chand Thakuri",
+  "keywords": [
+    "node",
+    "express",
+    "freeCodeCamp"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
