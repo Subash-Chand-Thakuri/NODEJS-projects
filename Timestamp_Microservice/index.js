@@ -49,7 +49,7 @@ app.get("/api/:date?", function (req, res) {
 //   res.json({ unix: unix, utc: utc });
 // });
 
-const PORT = process.env.PORT;
+const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
 });
